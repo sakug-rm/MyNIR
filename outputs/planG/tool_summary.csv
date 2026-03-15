@@ -1,0 +1,10 @@
+true_tool,recommended_tool,windows
+b_sum,b_sum,893
+degradation,degradation,21
+direct_identification,b_sum,2
+direct_identification,phase_analysis,6
+direct_identification,regression,23
+phase_analysis,phase_analysis,155
+regression,b_sum,62
+regression,phase_analysis,92
+regression,regression,606

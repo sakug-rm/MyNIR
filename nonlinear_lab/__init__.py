@@ -39,6 +39,13 @@ from nonlinear_lab.plan_b_experiment import (
     score_selected_features,
     summarize_plan_b_results,
 )
+from nonlinear_lab.plan_g_experiment import (
+    extract_window_diagnostics,
+    oracle_regime_label,
+    predict_regime_label,
+    run_plan_g_experiment,
+    save_plan_g_results,
+)
 from nonlinear_lab.reporting import build_experiment_report, save_experiment_report
 from nonlinear_lab.regression import (
     fit_enter_with_beta,
@@ -75,11 +82,16 @@ __all__ = [
     "run_plan_a_experiment",
     "run_plan_a_noise_sweep",
     "run_plan_b_experiment",
+    "run_plan_g_experiment",
     "save_experiment_report",
     "save_figure",
     "save_plan_a_results",
     "save_plan_b_results",
+    "save_plan_g_results",
     "score_selected_features",
+    "extract_window_diagnostics",
+    "oracle_regime_label",
+    "predict_regime_label",
     "stagewise_analysis",
     "summarize_plan_b_results",
     "stepwise_frequency",

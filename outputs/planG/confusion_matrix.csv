@@ -1,0 +1,7 @@
+true_label,chaotic_informative,collapse,growth_with_memory,plateau_degenerate,stable_cycle
+chaotic_informative,155,0,0,0,0
+collapse,0,21,0,0,0
+growth_no_memory,6,0,18,2,5
+growth_with_memory,27,0,36,42,138
+plateau_degenerate,0,0,0,893,0
+stable_cycle,65,0,187,20,245

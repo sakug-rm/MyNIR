@@ -1,0 +1,11 @@
+{
+  "files": [
+    "window_diagnostics.csv",
+    "classification_summary.csv",
+    "downstream_summary.csv",
+    "confusion_matrix.csv",
+    "tool_summary.csv",
+    "overall_summary.csv"
+  ],
+  "n_windows": 1860
+}
