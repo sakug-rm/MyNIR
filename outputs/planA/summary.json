@@ -1,0 +1,11 @@
+{
+  "files": [
+    "raw_estimates.csv",
+    "case_summary.csv",
+    "overall_summary.csv",
+    "diagnostic_summary.csv",
+    "diagnostic_overall.csv"
+  ],
+  "n_raw_rows": 11318,
+  "n_summary_rows": 204
+}

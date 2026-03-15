@@ -1,0 +1,205 @@
+model,case,regime,segment,method,observation,degenerate_truth_share,degenerate_recall,degenerate_precision,informative_specificity,informative_retention,family_accuracy
+base,base_a_0_8,устойчивое насыщение,early,direct,clean,0.6779661016949152,0.625,1.0,1.0,1.0,0.576271186440678
+base,base_a_0_8,устойчивое насыщение,late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_0_8,устойчивое насыщение,middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_0_8,устойчивое насыщение,early,regression,clean,0.5833333333333334,0.39285714285714285,1.0,1.0,1.0,0.3125
+base,base_a_0_8,устойчивое насыщение,late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_0_8,устойчивое насыщение,middle,regression,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_0_8,устойчивое насыщение,early,direct,noisy,0.05084745762711865,0.3333333333333333,0.07142857142857142,0.7678571428571429,0.7678571428571429,
+base,base_a_0_8,устойчивое насыщение,late,direct,noisy,0.05,0.0,0.0,0.9122807017543859,0.9122807017543859,
+base,base_a_0_8,устойчивое насыщение,middle,direct,noisy,0.01694915254237288,0.0,0.0,0.8103448275862069,0.8103448275862069,
+base,base_a_0_8,устойчивое насыщение,early,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_0_8,устойчивое насыщение,late,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_0_8,устойчивое насыщение,middle,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_1_5,быстрое насыщение,early,direct,clean,0.8135593220338984,0.3125,1.0,1.0,1.0,0.7457627118644068
+base,base_a_1_5,быстрое насыщение,late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_1_5,быстрое насыщение,middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_1_5,быстрое насыщение,early,regression,clean,0.7708333333333334,0.0,,1.0,1.0,0.9375
+base,base_a_1_5,быстрое насыщение,late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+base,base_a_1_5,быстрое насыщение,middle,regression,clean,1.0,0.9491525423728814,1.0,,0.0,0.05084745762711865
+base,base_a_1_5,быстрое насыщение,early,direct,noisy,0.03389830508474576,0.5,0.1111111111111111,0.8596491228070176,0.8596491228070176,
+base,base_a_1_5,быстрое насыщение,late,direct,noisy,0.016666666666666666,0.0,0.0,0.8813559322033898,0.8813559322033898,
+base,base_a_1_5,быстрое насыщение,middle,direct,noisy,0.03389830508474576,0.5,0.1,0.8421052631578947,0.8421052631578947,
+base,base_a_1_5,быстрое насыщение,early,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_1_5,быстрое насыщение,late,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_1_5,быстрое насыщение,middle,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_2,затухающие колебания,early,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_2,затухающие колебания,late,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_2,затухающие колебания,middle,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_2,затухающие колебания,early,regression,clean,0.0,,,1.0,1.0,0.8541666666666666
+base,base_a_2_2,затухающие колебания,late,regression,clean,0.0,,,1.0,1.0,0.4897959183673469
+base,base_a_2_2,затухающие колебания,middle,regression,clean,0.0,,,1.0,1.0,0.5084745762711864
+base,base_a_2_2,затухающие колебания,early,direct,noisy,0.0,,0.0,0.9661016949152542,0.9661016949152542,
+base,base_a_2_2,затухающие колебания,late,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_2,затухающие колебания,middle,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_2,затухающие колебания,early,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_2,затухающие колебания,late,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_2,затухающие колебания,middle,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_52,предтурбулентный режим,early,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_52,предтурбулентный режим,late,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_52,предтурбулентный режим,middle,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_52,предтурбулентный режим,early,regression,clean,0.0,,,1.0,1.0,0.4166666666666667
+base,base_a_2_52,предтурбулентный режим,late,regression,clean,0.0,,,1.0,1.0,0.5306122448979592
+base,base_a_2_52,предтурбулентный режим,middle,regression,clean,0.0,,,1.0,1.0,0.4576271186440678
+base,base_a_2_52,предтурбулентный режим,early,direct,noisy,0.0,,0.0,0.9661016949152542,0.9661016949152542,
+base,base_a_2_52,предтурбулентный режим,late,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_52,предтурбулентный режим,middle,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_52,предтурбулентный режим,early,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_52,предтурбулентный режим,late,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_52,предтурбулентный режим,middle,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_8,хаотический режим,early,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_8,хаотический режим,late,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_8,хаотический режим,middle,direct,clean,0.0,,,1.0,1.0,1.0
+base,base_a_2_8,хаотический режим,early,regression,clean,0.0,,,1.0,1.0,0.6458333333333334
+base,base_a_2_8,хаотический режим,late,regression,clean,0.0,,,1.0,1.0,0.6530612244897959
+base,base_a_2_8,хаотический режим,middle,regression,clean,0.0,,,1.0,1.0,0.5423728813559322
+base,base_a_2_8,хаотический режим,early,direct,noisy,0.0,,0.0,0.9830508474576272,0.9830508474576272,
+base,base_a_2_8,хаотический режим,late,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_8,хаотический режим,middle,direct,noisy,0.0,,,1.0,1.0,
+base,base_a_2_8,хаотический режим,early,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_8,хаотический режим,late,regression,noisy,0.0,,,1.0,1.0,
+base,base_a_2_8,хаотический режим,middle,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_0_2,устойчивое насыщение,early,direct,clean,0.13793103448275862,0.0,,1.0,1.0,1.0
+delay,delay_g_0_2,устойчивое насыщение,late,direct,clean,1.0,0.7288135593220338,1.0,,0.0,0.2711864406779661
+delay,delay_g_0_2,устойчивое насыщение,middle,direct,clean,0.8833333333333333,0.0,,1.0,1.0,1.0
+delay,delay_g_0_2,устойчивое насыщение,early,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_0_2,устойчивое насыщение,late,regression,clean,1.0,0.061224489795918366,1.0,,0.0,0.5510204081632653
+delay,delay_g_0_2,устойчивое насыщение,middle,regression,clean,0.6949152542372882,0.0,,1.0,1.0,0.9661016949152542
+delay,delay_g_0_2,устойчивое насыщение,early,direct,noisy,0.13793103448275862,0.625,0.20833333333333334,0.62,0.62,
+delay,delay_g_0_2,устойчивое насыщение,late,direct,noisy,0.0,,0.0,0.2542372881355932,0.2542372881355932,
+delay,delay_g_0_2,устойчивое насыщение,middle,direct,noisy,0.0,,0.0,0.43333333333333335,0.43333333333333335,
+delay,delay_g_0_2,устойчивое насыщение,early,regression,noisy,0.0,,0.0,0.8541666666666666,0.8541666666666666,
+delay,delay_g_0_2,устойчивое насыщение,late,regression,noisy,0.0,,0.0,0.3469387755102041,0.3469387755102041,
+delay,delay_g_0_2,устойчивое насыщение,middle,regression,noisy,0.0,,0.0,0.576271186440678,0.576271186440678,
+delay,delay_g_0_8,колебательный рост,early,direct,clean,0.1206896551724138,0.0,,1.0,1.0,1.0
+delay,delay_g_0_8,колебательный рост,late,direct,clean,1.0,0.0,,,0.0,1.0
+delay,delay_g_0_8,колебательный рост,middle,direct,clean,1.0,0.0,,,0.0,1.0
+delay,delay_g_0_8,колебательный рост,early,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_0_8,колебательный рост,late,regression,clean,1.0,0.0,,,0.0,0.8367346938775511
+delay,delay_g_0_8,колебательный рост,middle,regression,clean,0.9322033898305084,0.0,,1.0,1.0,0.9152542372881356
+delay,delay_g_0_8,колебательный рост,early,direct,noisy,0.0,,0.0,0.6206896551724138,0.6206896551724138,
+delay,delay_g_0_8,колебательный рост,late,direct,noisy,0.0,,0.0,0.3559322033898305,0.3559322033898305,
+delay,delay_g_0_8,колебательный рост,middle,direct,noisy,0.0,,0.0,0.38333333333333336,0.38333333333333336,
+delay,delay_g_0_8,колебательный рост,early,regression,noisy,0.0,,0.0,0.8958333333333334,0.8958333333333334,
+delay,delay_g_0_8,колебательный рост,late,regression,noisy,0.0,,0.0,0.2653061224489796,0.2653061224489796,
+delay,delay_g_0_8,колебательный рост,middle,regression,noisy,0.0,,0.0,0.3389830508474576,0.3389830508474576,
+delay,delay_g_1_05,циклический режим,early,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,late,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,middle,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,early,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,late,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,middle,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_05,циклический режим,early,direct,noisy,0.0,,0.0,0.8793103448275862,0.8793103448275862,
+delay,delay_g_1_05,циклический режим,late,direct,noisy,0.0,,0.0,0.9661016949152542,0.9661016949152542,
+delay,delay_g_1_05,циклический режим,middle,direct,noisy,0.0,,0.0,0.9333333333333333,0.9333333333333333,
+delay,delay_g_1_05,циклический режим,early,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_05,циклический режим,late,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_05,циклический режим,middle,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_25,усиленный цикл,early,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,late,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,middle,direct,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,early,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,late,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,middle,regression,clean,0.0,,,1.0,1.0,1.0
+delay,delay_g_1_25,усиленный цикл,early,direct,noisy,0.0,,0.0,0.9310344827586207,0.9310344827586207,
+delay,delay_g_1_25,усиленный цикл,late,direct,noisy,0.0,,0.0,0.9152542372881356,0.9152542372881356,
+delay,delay_g_1_25,усиленный цикл,middle,direct,noisy,0.0,,0.0,0.8833333333333333,0.8833333333333333,
+delay,delay_g_1_25,усиленный цикл,early,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_25,усиленный цикл,late,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_25,усиленный цикл,middle,regression,noisy,0.0,,,1.0,1.0,
+delay,delay_g_1_6,турбулентный режим,early,direct,clean,0.7758620689655172,1.0,0.9782608695652174,0.9230769230769231,0.9230769230769231,0.20689655172413793
+delay,delay_g_1_6,турбулентный режим,late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+delay,delay_g_1_6,турбулентный режим,middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+delay,delay_g_1_6,турбулентный режим,early,regression,clean,0.7291666666666666,1.0,0.9722222222222222,0.9230769230769231,0.9230769230769231,0.20833333333333334
+delay,delay_g_1_6,турбулентный режим,late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+delay,delay_g_1_6,турбулентный режим,middle,regression,clean,1.0,1.0,1.0,,0.0,0.0
+delay,delay_g_1_6,турбулентный режим,early,direct,noisy,0.7758620689655172,1.0,0.9,0.6153846153846154,0.6153846153846154,
+delay,delay_g_1_6,турбулентный режим,late,direct,noisy,1.0,1.0,1.0,,0.0,
+delay,delay_g_1_6,турбулентный режим,middle,direct,noisy,1.0,1.0,1.0,,0.0,
+delay,delay_g_1_6,турбулентный режим,early,regression,noisy,0.7291666666666666,1.0,0.9722222222222222,0.9230769230769231,0.9230769230769231,
+delay,delay_g_1_6,турбулентный режим,late,regression,noisy,1.0,1.0,1.0,,0.0,
+delay,delay_g_1_6,турбулентный режим,middle,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",early,direct,clean,0.6206896551724138,0.3333333333333333,1.0,1.0,1.0,0.7931034482758621
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",early,regression,clean,0.5416666666666666,0.0,,1.0,1.0,1.0
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",middle,regression,clean,1.0,0.15254237288135594,1.0,,0.0,0.847457627118644
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",early,direct,noisy,0.0,,0.0,0.8275862068965517,0.8275862068965517,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",late,direct,noisy,0.0,,0.0,0.7457627118644068,0.7457627118644068,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",middle,direct,noisy,0.0,,0.0,0.7288135593220338,0.7288135593220338,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",early,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",late,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_0_5,"смешанная память, устойчивый",middle,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",early,direct,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",late,direct,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",middle,direct,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",early,regression,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",late,regression,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",middle,regression,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",early,direct,noisy,0.0,,0.0,0.9827586206896551,0.9827586206896551,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",late,direct,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",middle,direct,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",early,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",late,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_5,"смешанная память, цикл",middle,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",early,direct,clean,0.8620689655172413,1.0,0.9615384615384616,0.75,0.75,0.10344827586206896
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",early,regression,clean,0.8333333333333334,1.0,0.9523809523809523,0.75,0.75,0.125
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",middle,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",early,direct,noisy,0.8620689655172413,1.0,0.9615384615384616,0.75,0.75,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",late,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",middle,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",early,regression,noisy,0.8333333333333334,1.0,0.975609756097561,0.875,0.875,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",late,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_3_5_gamma_0_5,"смешанная память, турбулентный",middle,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,early,direct,clean,0.0,,0.0,0.9482758620689655,0.9482758620689655,0.9482758620689655
+mixed,mixed_q_2_8_gamma_0_1,слабая память,late,direct,clean,0.0,,0.0,0.0,0.0,0.0
+mixed,mixed_q_2_8_gamma_0_1,слабая память,middle,direct,clean,0.0,,0.0,0.0,0.0,0.0
+mixed,mixed_q_2_8_gamma_0_1,слабая память,early,regression,clean,0.0,,,1.0,1.0,0.8333333333333334
+mixed,mixed_q_2_8_gamma_0_1,слабая память,late,regression,clean,0.0,,,1.0,1.0,0.0
+mixed,mixed_q_2_8_gamma_0_1,слабая память,middle,regression,clean,0.0,,,1.0,1.0,0.03389830508474576
+mixed,mixed_q_2_8_gamma_0_1,слабая память,early,direct,noisy,0.0,,0.0,0.6379310344827587,0.6379310344827587,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,late,direct,noisy,0.0,,0.0,0.6949152542372882,0.6949152542372882,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,middle,direct,noisy,0.0,,0.0,0.6440677966101694,0.6440677966101694,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,early,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,late,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_2_8_gamma_0_1,слабая память,middle,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",early,direct,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",late,direct,clean,0.0,,0.0,0.0,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",middle,direct,clean,0.0,,0.0,0.2711864406779661,0.2711864406779661,0.2711864406779661
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",early,regression,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",late,regression,clean,0.0,,,1.0,1.0,1.0
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",middle,regression,clean,0.0,,,1.0,1.0,0.5254237288135594
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",early,direct,noisy,0.0,,0.0,0.8103448275862069,0.8103448275862069,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",late,direct,noisy,0.0,,0.0,0.6271186440677966,0.6271186440677966,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",middle,direct,noisy,0.0,,0.0,0.6949152542372882,0.6949152542372882,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",early,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",late,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_neg_0_2,"отрицательная память, умеренная",middle,regression,noisy,0.0,,,1.0,1.0,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",early,direct,clean,0.6896551724137931,1.0,0.9302325581395349,0.8333333333333334,0.8333333333333334,0.25862068965517243
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",early,regression,clean,0.625,1.0,0.9090909090909091,0.8333333333333334,0.8333333333333334,0.3125
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",middle,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",early,direct,noisy,0.6896551724137931,1.0,0.8888888888888888,0.7222222222222222,0.7222222222222222,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",late,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",middle,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",early,regression,noisy,0.625,1.0,0.9090909090909091,0.8333333333333334,0.8333333333333334,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",late,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_5,"отрицательная память, сильная",middle,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",early,direct,clean,0.7241379310344828,1.0,0.9545454545454546,0.875,0.875,0.2413793103448276
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",late,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",middle,direct,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",early,regression,clean,0.6666666666666666,1.0,0.9696969696969697,0.9375,0.9375,0.3125
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",late,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",middle,regression,clean,1.0,1.0,1.0,,0.0,0.0
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",early,direct,noisy,0.7241379310344828,1.0,0.9545454545454546,0.875,0.875,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",late,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",middle,direct,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",early,regression,noisy,0.6666666666666666,1.0,0.9696969696969697,0.9375,0.9375,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",late,regression,noisy,1.0,1.0,1.0,,0.0,
+mixed,mixed_q_1_5_gamma_neg_0_8,"отрицательная память, очень сильная",middle,regression,noisy,1.0,1.0,1.0,,0.0,
