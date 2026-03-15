@@ -32,6 +32,13 @@ from nonlinear_lab.plan_a_experiment import (
     run_plan_a_noise_sweep,
     save_plan_a_results,
 )
+from nonlinear_lab.plan_b_experiment import (
+    estimate_characteristic_period,
+    run_plan_b_experiment,
+    save_plan_b_results,
+    score_selected_features,
+    summarize_plan_b_results,
+)
 from nonlinear_lab.reporting import build_experiment_report, save_experiment_report
 from nonlinear_lab.regression import (
     fit_enter_with_beta,
@@ -67,12 +74,17 @@ __all__ = [
     "rolling_window_regression",
     "run_plan_a_experiment",
     "run_plan_a_noise_sweep",
+    "run_plan_b_experiment",
     "save_experiment_report",
     "save_figure",
     "save_plan_a_results",
+    "save_plan_b_results",
+    "score_selected_features",
     "stagewise_analysis",
+    "summarize_plan_b_results",
     "stepwise_frequency",
     "stepwise_selection",
     "summarize_parameter_errors",
     "theoretical_coeffs",
+    "estimate_characteristic_period",
 ]

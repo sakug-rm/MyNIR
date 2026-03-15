@@ -1,0 +1,86 @@
+{
+  "window_level": {
+    "rows": 17745,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "start",
+      "end",
+      "window",
+      "lags",
+      "period",
+      "rho",
+      "rho_band",
+      "no_model",
+      "b_sum",
+      "R2_enter",
+      "selected",
+      "selected_count",
+      "hit_rate",
+      "false_lag_count",
+      "false_lag_rate"
+    ]
+  },
+  "case_summary": {
+    "rows": 119,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "window",
+      "lags",
+      "period",
+      "rho",
+      "windows",
+      "false_lag_rate",
+      "hit_rate",
+      "no_model_share",
+      "mean_false_lag_count",
+      "mean_selected_count",
+      "mean_b_sum",
+      "std_b_sum",
+      "mean_R2_enter",
+      "rho_band"
+    ]
+  },
+  "overall_summary": {
+    "rows": 14,
+    "columns": [
+      "model",
+      "lags",
+      "rho_band",
+      "windows",
+      "false_lag_rate",
+      "hit_rate",
+      "no_model_share",
+      "mean_selected_count",
+      "mean_false_lag_count",
+      "mean_b_sum",
+      "std_b_sum",
+      "mean_period"
+    ]
+  },
+  "period_summary": {
+    "rows": 7,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "period"
+    ]
+  },
+  "rho_curve": {
+    "rows": 51,
+    "columns": [
+      "model",
+      "lags",
+      "window",
+      "mean_rho",
+      "false_lag_rate",
+      "hit_rate",
+      "no_model_share",
+      "std_b_sum"
+    ]
+  }
+}

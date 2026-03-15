@@ -1,0 +1,8 @@
+model,case,regime,period
+base,base_a_2_2,затухающие колебания,4
+base,base_a_2_52,предтурбулентный цикл,4
+delay,delay_g_0_8,затухающие колебания,20
+delay,delay_g_1_05,цикл,6
+delay,delay_g_1_25,сложный цикл,8
+mixed,mixed_q_2_8_gamma_0_5,цикл со смешанной памятью,3
+mixed,mixed_q_2_8_gamma_neg_0_2,цикл с отрицательной памятью,2
