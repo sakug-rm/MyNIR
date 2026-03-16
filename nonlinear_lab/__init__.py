@@ -44,6 +44,13 @@ from nonlinear_lab.plan_c_experiment import (
     run_plan_c_experiment,
     save_plan_c_results,
 )
+from nonlinear_lab.plan_d_experiment import (
+    active_features_from_coefficients,
+    run_plan_d_experiment,
+    save_plan_d_results,
+    score_support,
+    true_coefficients_for_case,
+)
 from nonlinear_lab.plan_g_experiment import (
     extract_window_diagnostics,
     oracle_regime_label,
@@ -95,6 +102,7 @@ __all__ = [
     "run_plan_a_noise_sweep",
     "run_plan_b_experiment",
     "run_plan_c_experiment",
+    "run_plan_d_experiment",
     "run_plan_g_experiment",
     "run_plan_h_experiment",
     "save_experiment_report",
@@ -102,9 +110,11 @@ __all__ = [
     "save_plan_a_results",
     "save_plan_b_results",
     "save_plan_c_results",
+    "save_plan_d_results",
     "save_plan_g_results",
     "save_plan_h_results",
     "score_selected_features",
+    "score_support",
     "compute_ranking_metrics",
     "compute_condition_number",
     "compute_vif",
@@ -119,4 +129,6 @@ __all__ = [
     "summarize_parameter_errors",
     "theoretical_coeffs",
     "estimate_characteristic_period",
+    "active_features_from_coefficients",
+    "true_coefficients_for_case",
 ]
