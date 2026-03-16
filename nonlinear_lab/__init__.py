@@ -51,6 +51,13 @@ from nonlinear_lab.plan_g_experiment import (
     run_plan_g_experiment,
     save_plan_g_results,
 )
+from nonlinear_lab.plan_h_experiment import (
+    classify_window_failure,
+    compute_condition_number,
+    compute_vif,
+    run_plan_h_experiment,
+    save_plan_h_results,
+)
 from nonlinear_lab.reporting import build_experiment_report, save_experiment_report
 from nonlinear_lab.regression import (
     fit_enter_with_beta,
@@ -89,14 +96,19 @@ __all__ = [
     "run_plan_b_experiment",
     "run_plan_c_experiment",
     "run_plan_g_experiment",
+    "run_plan_h_experiment",
     "save_experiment_report",
     "save_figure",
     "save_plan_a_results",
     "save_plan_b_results",
     "save_plan_c_results",
     "save_plan_g_results",
+    "save_plan_h_results",
     "score_selected_features",
     "compute_ranking_metrics",
+    "compute_condition_number",
+    "compute_vif",
+    "classify_window_failure",
     "extract_window_diagnostics",
     "oracle_regime_label",
     "predict_regime_label",

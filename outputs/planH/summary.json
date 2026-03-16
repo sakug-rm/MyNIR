@@ -1,0 +1,12 @@
+{
+  "windows": 1395,
+  "best_threshold": {
+    "var_omega_threshold": 2.4373e-08,
+    "cond_scaled_threshold": 2.8007101480983853e+109,
+    "balanced_accuracy": 0.9338582175188066,
+    "recall": 0.8779803646563815,
+    "specificity": 0.9897360703812317,
+    "precision": 0.9889415481832543,
+    "predicted_share": 0.45376344086021503
+  }
+}
