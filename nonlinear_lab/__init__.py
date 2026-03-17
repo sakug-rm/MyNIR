@@ -51,6 +51,12 @@ from nonlinear_lab.plan_d_experiment import (
     score_support,
     true_coefficients_for_case,
 )
+from nonlinear_lab.plan_e_experiment import (
+    alpha_configs,
+    classify_interpretability_window,
+    run_plan_e_experiment,
+    save_plan_e_results,
+)
 from nonlinear_lab.plan_f_experiment import (
     choose_component_count,
     run_plan_f_experiment,
@@ -108,6 +114,7 @@ __all__ = [
     "run_plan_b_experiment",
     "run_plan_c_experiment",
     "run_plan_d_experiment",
+    "run_plan_e_experiment",
     "run_plan_f_experiment",
     "run_plan_g_experiment",
     "run_plan_h_experiment",
@@ -117,9 +124,12 @@ __all__ = [
     "save_plan_b_results",
     "save_plan_c_results",
     "save_plan_d_results",
+    "save_plan_e_results",
     "save_plan_f_results",
     "save_plan_g_results",
     "save_plan_h_results",
+    "alpha_configs",
+    "classify_interpretability_window",
     "score_selected_features",
     "score_support",
     "compute_ranking_metrics",

@@ -1,0 +1,21 @@
+{
+  "alphas": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "cases": [
+    "base_a_0_8",
+    "base_a_2_2",
+    "base_a_2_52",
+    "delay_g_0_2",
+    "delay_g_0_8",
+    "delay_g_1_25",
+    "mixed_q_1_5_gamma_0_5",
+    "mixed_q_2_8_gamma_0_5",
+    "mixed_q_1_5_gamma_neg_0_2"
+  ],
+  "window_count": 4185,
+  "var_omega_threshold": 2.4e-08,
+  "cond_scaled_threshold": 7e+16
+}
