@@ -51,6 +51,11 @@ from nonlinear_lab.plan_d_experiment import (
     score_support,
     true_coefficients_for_case,
 )
+from nonlinear_lab.plan_f_experiment import (
+    choose_component_count,
+    run_plan_f_experiment,
+    save_plan_f_results,
+)
 from nonlinear_lab.plan_g_experiment import (
     extract_window_diagnostics,
     oracle_regime_label,
@@ -103,6 +108,7 @@ __all__ = [
     "run_plan_b_experiment",
     "run_plan_c_experiment",
     "run_plan_d_experiment",
+    "run_plan_f_experiment",
     "run_plan_g_experiment",
     "run_plan_h_experiment",
     "save_experiment_report",
@@ -111,6 +117,7 @@ __all__ = [
     "save_plan_b_results",
     "save_plan_c_results",
     "save_plan_d_results",
+    "save_plan_f_results",
     "save_plan_g_results",
     "save_plan_h_results",
     "score_selected_features",
@@ -130,5 +137,6 @@ __all__ = [
     "theoretical_coeffs",
     "estimate_characteristic_period",
     "active_features_from_coefficients",
+    "choose_component_count",
     "true_coefficients_for_case",
 ]

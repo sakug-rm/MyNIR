@@ -1,0 +1,147 @@
+{
+  "window_level": {
+    "rows": 642,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "start",
+      "end",
+      "stage",
+      "true_predictor_count",
+      "cond_original",
+      "cond_pcr",
+      "cond_reduction_ratio",
+      "enter_validation_r2",
+      "pcr_validation_r2",
+      "enter_validation_mae",
+      "pcr_validation_mae",
+      "enter_true_mass_share",
+      "pcr_true_mass_share",
+      "enter_support_90",
+      "pcr_support_90",
+      "enter_pairwise",
+      "pcr_pairwise",
+      "enter_topk",
+      "pcr_topk",
+      "enter_false_lag_rate",
+      "pcr_false_lag_rate",
+      "enter_hit_rate",
+      "pcr_hit_rate",
+      "retained_components",
+      "explained_variance_share",
+      "pc1_share",
+      "component_dominance",
+      "component_true_loading_share"
+    ]
+  },
+  "case_summary": {
+    "rows": 5,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "windows",
+      "cond_original",
+      "cond_pcr",
+      "cond_reduction_ratio",
+      "enter_validation_r2",
+      "pcr_validation_r2",
+      "enter_true_mass_share",
+      "pcr_true_mass_share",
+      "enter_support_90",
+      "pcr_support_90",
+      "enter_pairwise",
+      "pcr_pairwise",
+      "enter_false_lag_rate",
+      "pcr_false_lag_rate",
+      "retained_components",
+      "explained_variance_share",
+      "component_dominance",
+      "component_true_loading_share"
+    ]
+  },
+  "overall_summary": {
+    "rows": 8,
+    "columns": [
+      "scope",
+      "method",
+      "windows",
+      "validation_r2",
+      "validation_mae",
+      "true_mass_share",
+      "support_90",
+      "pairwise_score",
+      "false_lag_rate",
+      "hit_rate",
+      "cond",
+      "retained_components",
+      "explained_variance_share",
+      "component_dominance",
+      "component_true_loading_share"
+    ]
+  },
+  "rho_curve": {
+    "rows": 2568,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "start",
+      "stage",
+      "rho",
+      "retained_components",
+      "explained_variance_share",
+      "validation_r2",
+      "validation_mae",
+      "true_mass_share",
+      "support_90",
+      "pairwise_score",
+      "false_lag_rate",
+      "component_dominance"
+    ]
+  },
+  "rho_summary": {
+    "rows": 4,
+    "columns": [
+      "rho",
+      "windows",
+      "retained_components",
+      "explained_variance_share",
+      "validation_r2",
+      "validation_mae",
+      "true_mass_share",
+      "support_90",
+      "pairwise_score",
+      "false_lag_rate",
+      "component_dominance"
+    ]
+  },
+  "component_loadings": {
+    "rows": 16830,
+    "columns": [
+      "model",
+      "case",
+      "regime",
+      "start",
+      "stage",
+      "component",
+      "variable",
+      "loading",
+      "abs_loading",
+      "loading_share",
+      "is_true_predictor"
+    ]
+  },
+  "component_summary": {
+    "rows": 319,
+    "columns": [
+      "case",
+      "component",
+      "variable",
+      "abs_loading",
+      "loading_share",
+      "is_true_predictor"
+    ]
+  }
+}
