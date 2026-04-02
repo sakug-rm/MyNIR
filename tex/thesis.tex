@@ -1,0 +1,65 @@
+\documentclass[14pt,a4paper]{extreport}
+
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\setsansfont{Times New Roman}
+\setmonofont{Courier New}
+\newfontfamily\cyrillicfonttt{Times New Roman}
+
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setotherlanguage{english}
+
+\usepackage[left=30mm,right=15mm,top=20mm,bottom=20mm]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{indentfirst}
+\setlength{\parindent}{1.25cm}
+\setlength{\parskip}{0pt}
+\usepackage{graphicx}
+\graphicspath{{../}}
+\usepackage{float}
+\usepackage{calc}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{amsmath,amssymb}
+\usepackage{caption}
+\captionsetup{justification=centering,labelsep=endash}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{titlesec}
+\usepackage{placeins}
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small}
+\makeatletter
+\def\fps@figure{htbp}
+\def\fps@table{htbp}
+\makeatother
+\newcounter{none}
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\pandocbounded}[1]{#1}
+
+\titleformat{\chapter}[block]{\bfseries\filcenter}{\thechapter}{1em}{}
+\titleformat{\section}[block]{\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}[block]{\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+\tableofcontents
+\clearpage
+
+\input{chapters/02_modeling}
+\input{chapters/03_real_data}
+
+\appendix
+\input{chapters/appendix_a}
+\input{chapters/appendix_b}
+\input{chapters/appendix_v}
+
+\end{document}
