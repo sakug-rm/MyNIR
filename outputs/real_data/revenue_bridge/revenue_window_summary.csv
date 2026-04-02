@@ -1,0 +1,9 @@
+bridge_id,source_label,window,dominant_regime,dominant_interpretability,dominant_tool,interpretable_share,phase_share,do_not_read_share,best_spec_mode,mean_adj_r2_best,top_beta_mode,mean_b_sum_best,source
+energy_heat,energy_heat — revenue,5,plateau_like,low_dispersion,do_not_read_regression,0.5,0.0,0.5,M1_current,0.2489205757786367,X_n,0.0,revenue
+food,food — revenue,5,plateau_like,low_dispersion,do_not_read_regression,0.375,0.0,0.625,M1_current,0.08925186135288075,X_n,0.0,revenue
+pharma,pharma — revenue,5,monotone_growth,interpretable,structural_m1_m2,0.8125,0.0,0.1875,M1_current,0.12795645431402689,X_n,0.0,revenue
+water,water — revenue,5,plateau_like,low_dispersion,do_not_read_regression,0.4375,0.0,0.5625,M1_current,0.13138234663855033,X_n,0.0,revenue
+energy_heat,energy_heat — revenue,7,oscillatory,interpretable,structural_m1_m2,0.5714285714285714,0.0,0.35714285714285715,M2_current_lag1,0.21044349988408614,X_n,2.1806578763455346e-06,revenue
+food,food — revenue,7,monotone_growth,collinearity_heavy,enter_beta_bsum,0.14285714285714285,0.0,0.42857142857142855,M1_current,0.09786033148865515,X_n,1.8369981571111215e-06,revenue
+pharma,pharma — revenue,7,oscillatory,interpretable,structural_m1_m2,0.8571428571428571,0.07142857142857142,0.0,M2_current_lag1,0.11480560555862862,X_n,4.469439742685654e-06,revenue
+water,water — revenue,7,monotone_growth,low_dispersion,do_not_read_regression,0.2857142857142857,0.0,0.5,M1_current,0.10161227454233426,X_n,2.0895720797930586e-06,revenue

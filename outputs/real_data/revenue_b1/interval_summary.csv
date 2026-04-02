@@ -1,0 +1,7 @@
+b1_group,group_label,interval,dominant_regime,dominant_interpretability,dominant_tool,best_spec,best_adj_r2,mean_b_sum,top_beta_mode,mean_loo_top_beta_consistency,mean_loo_sign_lag1_consistency
+high_90_50,High growth,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M1_current,0.22495718520811758,-1.4040901831796405e-06,Lag_1,1.0,0.0
+low_10_50,Low growth,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M2_current_lag1,0.9673497259600539,-2.6360589089214422e-05,Lag_1,1.0,0.0
+middle_45_55_50,Middle growth,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M1_current,0.5268215087251166,-3.294803827982847e-07,X_n,1.0,0.0
+high_90_50,High growth,2014-2022,plateau_like,low_dispersion,do_not_read_regression,M1_current,-0.1666600307651389,6.180986873302136e-07,Lag_1,0.7222222222222222,0.4722222222222222
+low_10_50,Low growth,2014-2022,plateau_like,low_dispersion,do_not_read_regression,M1_current,0.05784684284464647,-1.929843986223298e-05,Lag_1,0.6666666666666666,0.7222222222222222
+middle_45_55_50,Middle growth,2014-2022,oscillatory,interpretable,structural_m1_m2,M2_current_lag1,0.40171282185193413,-4.7472789514643314e-06,X_n,0.9722222222222222,0.75

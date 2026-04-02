@@ -1,0 +1,7 @@
+b1_group,group_label,window,dominant_regime,dominant_interpretability,dominant_tool,interpretable_share,phase_share,do_not_read_share,best_spec_mode,mean_adj_r2_best,top_beta_mode,mean_b_sum_best
+high_90_50,High growth,5,monotone_growth,interpretable,structural_m1_m2,0.6875,0.125,0.3125,M1_current,0.10571309288912481,X_n,0.0
+low_10_50,Low growth,5,plateau_like,low_dispersion,do_not_read_regression,0.1875,0.0,0.8125,M1_current,0.27850220323559943,X_n,0.0
+middle_45_55_50,Middle growth,5,plateau_like,low_dispersion,do_not_read_regression,0.375,0.0625,0.625,M1_current,0.16799530875506585,X_n,0.0
+high_90_50,High growth,7,shock_transition,interpretable,phase_trajectory,0.6428571428571429,0.35714285714285715,0.21428571428571427,M1_current,-0.020524579578543305,Lag_1,-3.606686256320736e-06
+low_10_50,Low growth,7,collapse_like,low_dispersion,do_not_read_regression,0.14285714285714285,0.0,0.7857142857142857,M1_lag1,0.2047268498471588,Lag_1,-1.4850781777304485e-05
+middle_45_55_50,Middle growth,7,oscillatory,interpretable,structural_m1_m2,0.5,0.0,0.42857142857142855,M1_current,0.12975181322257806,X_n,-1.0239742030734335e-06

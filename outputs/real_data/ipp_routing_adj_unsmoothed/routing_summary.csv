@@ -1,0 +1,5 @@
+variant,window,preferred_tool,window_share
+adj_unsmoothed,24,direct_probe + enter,0.0022396416573348264
+adj_unsmoothed,24,do_not_read_regression,0.24668053111502158
+adj_unsmoothed,24,phase_short_forecast,0.7467605183170692
+adj_unsmoothed,24,structural_regression,0.004319308910574308

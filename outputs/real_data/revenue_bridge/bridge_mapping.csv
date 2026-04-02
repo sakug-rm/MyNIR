@@ -1,0 +1,5 @@
+bridge_id,revenue_sector_2d,revenue_label_hint,ipp_series_code,ipp_label_hint,mapping_quality,note
+food,15,food_old_okved15,10,food_ipp10,high,Food manufacturing is the cleanest old-to-IPP match.
+pharma,24,pharma_old_okved24,21,pharma_ipp21,medium,Old sector 24 mixes chemistry and pharma; use as partial pharmaceutical proxy.
+energy_heat,40,energy_old_okved40,"35.1+35.3 Производство, передача и",energy_ipp35.1+35.3,high,Electricity/heat sector is the strongest energy bridge.
+water,41,water_old_okved41,36,water_ipp36,medium,Water distribution is a close but not perfect match.

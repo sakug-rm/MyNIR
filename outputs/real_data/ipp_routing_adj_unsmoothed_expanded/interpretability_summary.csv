@@ -1,0 +1,13 @@
+variant,window,interpretability_label,window_share
+adj_unsmoothed,24,collinearity_heavy,0.11006239001759718
+adj_unsmoothed,24,interpretable,0.6432570788673813
+adj_unsmoothed,24,low_dispersion,0.07390817469204927
+adj_unsmoothed,24,plateau_degenerate,0.1727723564229723
+adj_unsmoothed,36,collinearity_heavy,0.11341656409354668
+adj_unsmoothed,36,interpretable,0.6863020924916476
+adj_unsmoothed,36,low_dispersion,0.0865131000527519
+adj_unsmoothed,36,plateau_degenerate,0.11376824336205381
+adj_unsmoothed,48,collinearity_heavy,0.10462619558852235
+adj_unsmoothed,48,interpretable,0.7241850478235409
+adj_unsmoothed,48,low_dispersion,0.08373999609603748
+adj_unsmoothed,48,plateau_degenerate,0.08744876049189927

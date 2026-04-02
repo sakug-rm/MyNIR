@@ -1,0 +1,5 @@
+variant,window,interpretability_label,window_share
+adj_unsmoothed,24,collinearity_heavy,0.10430331147016478
+adj_unsmoothed,24,interpretable,0.6490161574148137
+adj_unsmoothed,24,low_dispersion,0.07390817469204927
+adj_unsmoothed,24,plateau_degenerate,0.1727723564229723

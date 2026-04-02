@@ -76,6 +76,43 @@ from nonlinear_lab.plan_h_experiment import (
     run_plan_h_experiment,
     save_plan_h_results,
 )
+from nonlinear_lab.real_data import (
+    build_ipp_hierarchy,
+    load_ipp_long,
+    load_revenue_corpus,
+    normalize_revenue_sheet,
+    parse_ipp_label,
+    reshape_ipp_wide_to_long,
+    reshape_revenue_wide_to_long,
+)
+from nonlinear_lab.real_data_cases import DEFAULT_CASE_CODES, run_ipp_case_cards, save_ipp_case_card_results
+from nonlinear_lab.real_data_experiment import run_ipp_variant_qc, save_ipp_variant_qc_results
+from nonlinear_lab.real_data_consistency import run_ipp_consistency_analysis, save_ipp_consistency_results
+from nonlinear_lab.real_data_routing import run_ipp_routing_experiment, save_ipp_routing_results
+from nonlinear_lab.real_data_structural import run_ipp_structural_reading, save_ipp_structural_results
+from nonlinear_lab.revenue_b1 import (
+    build_b1_groups,
+    compute_b1_group_medians,
+    run_b1_experiment,
+    run_b1_interval_models,
+    run_b1_short_windows,
+    save_b1_results,
+)
+from nonlinear_lab.revenue_b2 import (
+    build_b2_sector_corpus,
+    compute_b2_sector_medians,
+    extract_okved_levels,
+    normalize_old_okved,
+    run_b2_experiment,
+    save_b2_results,
+)
+from nonlinear_lab.revenue_bridge import (
+    build_bridge_mapping,
+    build_ipp_annual_series,
+    build_revenue_sector_series,
+    run_bridge_case,
+    save_bridge_results,
+)
 from nonlinear_lab.reporting import build_experiment_report, save_experiment_report
 from nonlinear_lab.regression import (
     fit_enter_with_beta,
@@ -96,7 +133,23 @@ __all__ = [
     "generate_delay_process",
     "generate_mixed_process",
     "growth_rate",
+    "build_ipp_hierarchy",
+    "load_ipp_long",
+    "load_revenue_corpus",
     "make_regression_df",
+    "normalize_revenue_sheet",
+    "parse_ipp_label",
+    "reshape_ipp_wide_to_long",
+    "reshape_revenue_wide_to_long",
+    "run_ipp_routing_experiment",
+    "run_ipp_case_cards",
+    "run_ipp_consistency_analysis",
+    "run_ipp_structural_reading",
+    "run_b1_experiment",
+    "run_b1_interval_models",
+    "run_b1_short_windows",
+    "run_b2_experiment",
+    "run_bridge_case",
     "build_experiment_report",
     "plot_phase_portrait",
     "plot_rolling_coefficients",
@@ -118,8 +171,17 @@ __all__ = [
     "run_plan_f_experiment",
     "run_plan_g_experiment",
     "run_plan_h_experiment",
+    "run_ipp_variant_qc",
     "save_experiment_report",
     "save_figure",
+    "save_ipp_routing_results",
+    "save_ipp_case_card_results",
+    "save_ipp_consistency_results",
+    "save_ipp_structural_results",
+    "save_b1_results",
+    "save_b2_results",
+    "save_bridge_results",
+    "save_ipp_variant_qc_results",
     "save_plan_a_results",
     "save_plan_b_results",
     "save_plan_c_results",
@@ -149,4 +211,14 @@ __all__ = [
     "active_features_from_coefficients",
     "choose_component_count",
     "true_coefficients_for_case",
+    "DEFAULT_CASE_CODES",
+    "build_b1_groups",
+    "compute_b1_group_medians",
+    "normalize_old_okved",
+    "extract_okved_levels",
+    "build_b2_sector_corpus",
+    "compute_b2_sector_medians",
+    "build_bridge_mapping",
+    "build_ipp_annual_series",
+    "build_revenue_sector_series",
 ]

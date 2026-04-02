@@ -1,0 +1,9 @@
+bridge_id,source_label,interval,dominant_regime,dominant_interpretability,dominant_tool,best_spec,best_adj_r2,mean_b_sum,top_beta_mode,mean_loo_top_beta_consistency,mean_loo_sign_lag1_consistency,source
+energy_heat,energy_heat — IPP,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M1_current,0.011642984874210116,-0.00047199730113505503,X_n,1.0,0.0,ipp
+food,food — IPP,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M1_current,-0.3125976725344688,0.002561981684891039,Lag_1,1.0,0.0,ipp
+pharma,pharma — IPP,2014-2019,shock_transition,interpretable,phase_trajectory,M2_current_lag1,0.31815724995928873,0.006166751509934093,Lag_1,1.0,0.0,ipp
+water,water — IPP,2014-2019,plateau_like,low_dispersion,do_not_read_regression,M2_current_lag1,0.4748303522066819,0.005161273818075998,X_n,1.0,0.0,ipp
+energy_heat,energy_heat — IPP,2014-2022,plateau_like,low_dispersion,do_not_read_regression,M1_current,0.17528926263253586,0.0012528305670581681,X_n,0.9444444444444444,0.41666666666666663,ipp
+food,food — IPP,2014-2022,plateau_like,low_dispersion,do_not_read_regression,M3_lag1_lag2,0.445227232541879,0.0005323632004203117,X_n,0.8055555555555556,0.5555555555555556,ipp
+pharma,pharma — IPP,2014-2022,shock_transition,collinearity_heavy,phase_trajectory,M3_lag1_lag2,0.02421928370971438,0.00029013136582579544,Lag_1,0.8055555555555556,0.5277777777777778,ipp
+water,water — IPP,2014-2022,plateau_like,low_dispersion,do_not_read_regression,M1_lag1,0.4621239802061552,-0.003631729631777319,Lag_1,0.75,0.7222222222222222,ipp

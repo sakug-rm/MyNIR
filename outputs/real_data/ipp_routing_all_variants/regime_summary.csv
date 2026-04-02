@@ -1,0 +1,13 @@
+variant,window,regime_label,window_share
+adj_smoothed,24,growth_no_memory,0.0686290193569029
+adj_smoothed,24,memory_like_growth,0.3487442009278515
+adj_smoothed,24,plateau_degenerate,0.5787873940169573
+adj_smoothed,24,turbulent_informative,0.003839385698288274
+adj_unsmoothed,24,growth_no_memory,0.0022396416573348264
+adj_unsmoothed,24,memory_like_growth,0.004799232122860342
+adj_unsmoothed,24,plateau_degenerate,0.1727723564229723
+adj_unsmoothed,24,turbulent_informative,0.8201887697968325
+raw,24,growth_no_memory,0.007358822588385858
+raw,24,memory_like_growth,0.1558150695888658
+raw,24,plateau_degenerate,0.0009598464245720685
+raw,24,turbulent_informative,0.8358662613981763

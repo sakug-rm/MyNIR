@@ -1,0 +1,9 @@
+bridge_id,interval,mapping_quality,ipp_regime,revenue_regime,regime_match,ipp_interpretability,revenue_interpretability,interpretability_match,ipp_tool,revenue_tool,tool_match,ipp_best_adj_r2,revenue_best_adj_r2
+food,2014-2019,high,plateau_like,oscillatory,0,low_dispersion,interpretable,0,do_not_read_regression,structural_m1_m2,0,-0.3125976725344688,0.5268682954286595
+food,2014-2022,high,plateau_like,monotone_growth,0,low_dispersion,interpretable,0,do_not_read_regression,structural_m1_m2,0,0.445227232541879,0.2418030824223154
+pharma,2014-2019,medium,shock_transition,plateau_like,0,interpretable,low_dispersion,0,phase_trajectory,do_not_read_regression,0,0.31815724995928873,0.16003000841783954
+pharma,2014-2022,medium,shock_transition,monotone_growth,0,collinearity_heavy,collinearity_heavy,1,phase_trajectory,enter_beta_bsum,0,0.02421928370971438,0.2931776183585141
+energy_heat,2014-2019,high,plateau_like,plateau_like,1,low_dispersion,low_dispersion,1,do_not_read_regression,do_not_read_regression,1,0.011642984874210116,0.9959646542173287
+energy_heat,2014-2022,high,plateau_like,oscillatory,0,low_dispersion,interpretable,0,do_not_read_regression,structural_m1_m2,0,0.17528926263253586,0.011760582165739941
+water,2014-2019,medium,plateau_like,plateau_like,1,low_dispersion,low_dispersion,1,do_not_read_regression,do_not_read_regression,1,0.4748303522066819,-0.05198900323497346
+water,2014-2022,medium,plateau_like,plateau_like,1,low_dispersion,low_dispersion,1,do_not_read_regression,do_not_read_regression,1,0.4621239802061552,0.04900794421633303

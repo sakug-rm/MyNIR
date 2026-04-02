@@ -1,0 +1,10 @@
+b1_group,group_label,spec,top_beta_consistent,lag1_sign_consistent,x_sign_consistent,adj_r2_range
+high_90_50,High growth,M1_current,1,1,1,0.3916172159732565
+high_90_50,High growth,M1_lag1,1,0,1,0.22217006164178477
+high_90_50,High growth,M2_current_lag1,1,0,0,0.900520889819421
+low_10_50,Low growth,M1_current,1,1,1,0.21987012485527113
+low_10_50,Low growth,M1_lag1,1,1,1,0.8731240381449675
+low_10_50,Low growth,M2_current_lag1,1,1,0,1.094616716049187
+middle_45_55_50,Middle growth,M1_current,1,1,1,0.2807216667169621
+middle_45_55_50,Middle growth,M1_lag1,1,0,1,0.500966051786528
+middle_45_55_50,Middle growth,M2_current_lag1,1,1,1,1.0214778158331372

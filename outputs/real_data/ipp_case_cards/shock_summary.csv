@@ -1,0 +1,17 @@
+series_code,series_name,shock_label,shock_date,shock_level,six_month_change_before,six_month_change_after,shock_regime_w24,shock_interpretability_w24,shock_mode_w24
+06,Добыча сырой нефти и природного,2020_shock,2020-04-01,110.134,0.005064839065879401,-0.10392703433998574,turbulent_informative,interpretable,phase_caution
+06,Добыча сырой нефти и природного,2022_shock,2022-03-01,107.857,0.007971664610668672,-0.030308649415429767,plateau_degenerate,plateau_degenerate,do_not_read
+06.1,Добыча сырой нефти и нефтяног,2020_shock,2020-04-01,110.134,0.005064839065879401,-0.10392703433998574,turbulent_informative,interpretable,phase_caution
+06.1,Добыча сырой нефти и нефтяног,2022_shock,2022-03-01,107.857,0.007971664610668672,-0.030308649415429767,plateau_degenerate,plateau_degenerate,do_not_read
+10,Производство пищевых продуктов,2020_shock,2020-04-01,123.957,0.012042585849349141,0.009398420419984399,turbulent_informative,interpretable,phase_caution
+10,Производство пищевых продуктов,2022_shock,2022-03-01,126.72,-0.0005047955577991425,0.01625631313131315,turbulent_informative,interpretable,phase_caution
+21,Производство лекарственных сред,2020_shock,2020-04-01,231.925,0.07302640406031258,-0.14365851029427623,turbulent_informative,interpretable,phase_caution
+21,Производство лекарственных сред,2022_shock,2022-03-01,332.127,0.3783834258821186,-0.22053009842620452,turbulent_informative,interpretable,phase_caution
+26,"Производство компьютеров, элект",2020_shock,2020-04-01,114.027,-0.418570736557632,0.47016934585668313,turbulent_informative,interpretable,phase_caution
+26,"Производство компьютеров, элект",2022_shock,2022-03-01,180.9,0.03667027696116354,0.034610281923714625,turbulent_informative,interpretable,phase_caution
+"35.1+35.3 Производство, передача и","35.1+35.3 Производство, передача и",2020_shock,2020-04-01,97.0606,-0.01867002604461565,-0.016181643220833153,turbulent_informative,collinearity_heavy,beta_bsum_caution
+"35.1+35.3 Производство, передача и","35.1+35.3 Производство, передача и",2022_shock,2022-03-01,103.759,-0.010358147741904689,-0.010832795227401881,turbulent_informative,plateau_degenerate,do_not_read
+38,"Сбор, обработка и утилизация от",2020_shock,2020-04-01,149.26,-0.12058776741473076,0.4003483853678145,turbulent_informative,interpretable,phase_caution
+38,"Сбор, обработка и утилизация от",2022_shock,2022-03-01,270.392,0.1768454038997216,-0.2637208201426078,turbulent_informative,interpretable,phase_caution
+ПРОМ,Промышленность - всего,2020_shock,2020-04-01,108.903,-0.05990866949233009,0.02185431071687649,turbulent_informative,interpretable,phase_caution
+ПРОМ,Промышленность - всего,2022_shock,2022-03-01,118.735,-0.00841802861127583,-0.015463005853370904,plateau_degenerate,plateau_degenerate,do_not_read
