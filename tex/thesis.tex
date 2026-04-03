@@ -26,7 +26,10 @@
 \usepackage{amsmath,amssymb}
 \usepackage{caption}
 \captionsetup{justification=centering,labelsep=endash}
+\captionsetup[table]{position=top}
+\captionsetup{hypcap=false}
 \usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
 \usepackage{enumitem}
 \setlist{nosep}
 \usepackage{titlesec}
@@ -38,9 +41,9 @@
 \def\fps@table{htbp}
 \makeatother
 \newcounter{none}
+\setlength{\emergencystretch}{3em}
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\providecommand{\pandocbounded}[1]{#1}
 
 \titleformat{\chapter}[block]{\bfseries\filcenter}{\thechapter}{1em}{}
 \titleformat{\section}[block]{\bfseries}{\thesection}{1em}{}
@@ -48,14 +51,20 @@
 
 \begin{document}
 
+\input{titlepage}
+
+\pagestyle{plain}
 \pagenumbering{arabic}
-\setcounter{page}{1}
+\setcounter{page}{2}
 
 \tableofcontents
 \clearpage
 
+\input{chapters/01_introduction}
 \input{chapters/02_modeling}
 \input{chapters/03_real_data}
+\input{chapters/04_conclusion}
+\input{bibliography}
 
 \appendix
 \input{chapters/appendix_a}
