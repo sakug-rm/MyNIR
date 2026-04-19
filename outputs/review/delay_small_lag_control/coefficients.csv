@@ -1,0 +1,11 @@
+variant,coefficient,value
+lag1_only,const,0.8
+lag1_only,Lag_1,-0.8000000000000002
+stepwise_full,const,0.8000000000000005
+stepwise_full,Lag_1,-0.7999999999999998
+stepwise_full,Lag_3,-2.8709673527416157e-16
+stepwise_full,Lag_9,-2.98806118737005e-16
+thresholded,const,0.8000000000000005
+thresholded,Lag_1,-0.7999999999999998
+thresholded,Lag_3,0.0
+thresholded,Lag_9,0.0
