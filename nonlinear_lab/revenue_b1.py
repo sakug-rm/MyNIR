@@ -490,12 +490,17 @@ def run_b1_experiment(
 
 def _plot_group_trajectories(group_yearly: pd.DataFrame):
     fig, ax = plt.subplots(figsize=(10, 4))
+    label_map = {
+        "High growth": "Высокие темпы роста",
+        "Low growth": "Низкие темпы роста",
+        "Middle growth": "Средние темпы роста",
+    }
     for label, subset in group_yearly.groupby("group_label", sort=False):
-        ax.plot(subset["year"], subset["median_revenue"], marker="o", label=label)
+        ax.plot(subset["year"], subset["median_revenue"], marker="o", label=label_map.get(label, label))
     for year in (2014, 2020, 2022):
         ax.axvline(year, linestyle="--", linewidth=1.0, color="#999999")
-    ax.set_title("Median Revenue Trajectories by B1 Group")
-    ax.set_ylabel("Median Revenue")
+    ax.set_title("Медианные траектории выручки по группам B1")
+    ax.set_ylabel("Медианная выручка")
     ax.legend()
     fig.tight_layout()
     return fig
@@ -503,13 +508,18 @@ def _plot_group_trajectories(group_yearly: pd.DataFrame):
 
 def _plot_group_growth(group_yearly: pd.DataFrame):
     fig, ax = plt.subplots(figsize=(10, 4))
+    label_map = {
+        "High growth": "Высокие темпы роста",
+        "Low growth": "Низкие темпы роста",
+        "Middle growth": "Средние темпы роста",
+    }
     for label, subset in group_yearly.groupby("group_label", sort=False):
         valid = subset.dropna(subset=["median_growth"])
-        ax.plot(valid["year"], valid["median_growth"], marker="o", label=label)
+        ax.plot(valid["year"], valid["median_growth"], marker="o", label=label_map.get(label, label))
     for year in (2014, 2020, 2022):
         ax.axvline(year, linestyle="--", linewidth=1.0, color="#999999")
-    ax.set_title("Median Revenue Growth by B1 Group")
-    ax.set_ylabel("Growth")
+    ax.set_title("Темпы роста медианной выручки по группам B1")
+    ax.set_ylabel("Темп роста")
     ax.legend()
     fig.tight_layout()
     return fig
@@ -524,8 +534,8 @@ def _plot_interval_adj_r2(interval_models: pd.DataFrame):
         ax.bar(x + idx * width, table[column].to_numpy(dtype=float), width=width, label=column)
     ax.set_xticks(x + width * max(len(table.columns) - 1, 0) / 2)
     ax.set_xticklabels([f"{group}\n{interval}" for group, interval in table.index], rotation=0)
-    ax.set_ylabel("Adjusted R2")
-    ax.set_title("B1 Interval Models: Adjusted R2")
+    ax.set_ylabel("Скорректированный R²")
+    ax.set_title("Модели B1 на полных интервалах: скорректированный R²")
     ax.legend(fontsize=8)
     fig.tight_layout()
     return fig
@@ -537,8 +547,8 @@ def _plot_window_modes(window_summary: pd.DataFrame):
     labels = [f"{group}\nW={window}" for group, window in table.index]
     ax.bar(labels, table.max(axis=1).to_numpy(dtype=float), color="#6baed6")
     ax.set_ylim(0.0, 1.0)
-    ax.set_ylabel("Interpretable Share")
-    ax.set_title("B1 Short Windows: Interpretable Share by Group and Window")
+    ax.set_ylabel("Доля интерпретируемых окон")
+    ax.set_title("Короткие окна B1: доля интерпретируемых окон")
     fig.tight_layout()
     return fig
 

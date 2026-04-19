@@ -180,8 +180,8 @@ def _plot_sector_trajectories(sector_yearly: pd.DataFrame, top_n: int = 8):
         ax.plot(subset["year"], subset["median_revenue"], marker="o", label=code)
     for year in (2014, 2020, 2022):
         ax.axvline(year, linestyle="--", linewidth=1.0, color="#999999")
-    ax.set_title("B2 Sector Median Revenue Trajectories")
-    ax.set_ylabel("Median Revenue")
+    ax.set_title("Медианные траектории отраслевой выручки B2")
+    ax.set_ylabel("Медианная выручка")
     ax.legend(ncol=4, fontsize=8)
     fig.tight_layout()
     return fig
@@ -198,8 +198,8 @@ def _plot_interpretable_share(window_summary: pd.DataFrame):
     ax.set_xticks(positions + width * max(len(windows) - 1, 0) / 2)
     ax.set_xticklabels(pivot.index.astype(str), rotation=45, ha="right")
     ax.set_ylim(0.0, 1.0)
-    ax.set_ylabel("Interpretable Share")
-    ax.set_title("B2 Sector Interpretable Share")
+    ax.set_ylabel("Доля интерпретируемых окон")
+    ax.set_title("B2: доля интерпретируемых окон по секторам")
     ax.legend()
     fig.tight_layout()
     return fig
@@ -215,8 +215,8 @@ def _plot_interval_best_fit(interval_summary: pd.DataFrame):
         ax.bar(positions + idx * width, table[interval].to_numpy(dtype=float), width=width, label=interval)
     ax.set_xticks(positions + width * max(len(intervals) - 1, 0) / 2)
     ax.set_xticklabels(table.index.astype(str), rotation=45, ha="right")
-    ax.set_ylabel("Best Adjusted R2")
-    ax.set_title("B2 Sector Full-Interval Best Fit")
+    ax.set_ylabel("Лучший скорректированный R²")
+    ax.set_title("B2: качество подгонки на полном интервале")
     ax.legend()
     fig.tight_layout()
     return fig
