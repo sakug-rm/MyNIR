@@ -499,7 +499,7 @@ def _plot_group_trajectories(group_yearly: pd.DataFrame):
         ax.plot(subset["year"], subset["median_revenue"], marker="o", label=label_map.get(label, label))
     for year in (2014, 2020, 2022):
         ax.axvline(year, linestyle="--", linewidth=1.0, color="#999999")
-    ax.set_title("Медианные траектории выручки по группам B1")
+    ax.set_title("Медианные траектории выручки по группам компаний")
     ax.set_ylabel("Медианная выручка")
     ax.legend()
     fig.tight_layout()
@@ -518,7 +518,7 @@ def _plot_group_growth(group_yearly: pd.DataFrame):
         ax.plot(valid["year"], valid["median_growth"], marker="o", label=label_map.get(label, label))
     for year in (2014, 2020, 2022):
         ax.axvline(year, linestyle="--", linewidth=1.0, color="#999999")
-    ax.set_title("Темпы роста медианной выручки по группам B1")
+    ax.set_title("Темпы роста медианной выручки по группам компаний")
     ax.set_ylabel("Темп роста")
     ax.legend()
     fig.tight_layout()
@@ -535,7 +535,7 @@ def _plot_interval_adj_r2(interval_models: pd.DataFrame):
     ax.set_xticks(x + width * max(len(table.columns) - 1, 0) / 2)
     ax.set_xticklabels([f"{group}\n{interval}" for group, interval in table.index], rotation=0)
     ax.set_ylabel("Скорректированный R²")
-    ax.set_title("Модели B1 на полных интервалах: скорректированный R²")
+    ax.set_title("Скорректированный R² на полных интервалах по группам компаний")
     ax.legend(fontsize=8)
     fig.tight_layout()
     return fig
@@ -544,11 +544,11 @@ def _plot_interval_adj_r2(interval_models: pd.DataFrame):
 def _plot_window_modes(window_summary: pd.DataFrame):
     table = window_summary.pivot_table(index=["group_label", "window"], columns="dominant_tool", values="interpretable_share", fill_value=0.0)
     fig, ax = plt.subplots(figsize=(10, 4))
-    labels = [f"{group}\nW={window}" for group, window in table.index]
+    labels = [f"{group}\nокно {window} лет" for group, window in table.index]
     ax.bar(labels, table.max(axis=1).to_numpy(dtype=float), color="#6baed6")
     ax.set_ylim(0.0, 1.0)
     ax.set_ylabel("Доля интерпретируемых окон")
-    ax.set_title("Короткие окна B1: доля интерпретируемых окон")
+    ax.set_title("Доля интерпретируемых окон по группам компаний")
     fig.tight_layout()
     return fig
 
